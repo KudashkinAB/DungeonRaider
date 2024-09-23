@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551dfd9e6f9b96b4aa15884e4c0581ff, type: 3}
+  m_Name: TierConfig
+  m_EditorClassIdentifier: 
+  _tiers:
+  - _name: TRASH
+    _color: {r: 0.6679245, g: 0.6679245, b: 0.6679245, a: 1}
+    _minStatModifier: 1
+    _maxStatModifier: 1.05
+    _enchantChance: 0.1
+    _minEnchantPower: 0.012
+    _maxEnchantPower: 0.05
+  - _name: COMMON
+    _color: {r: 1, g: 1, b: 1, a: 1}
+    _minStatModifier: 1
+    _maxStatModifier: 1.1
+    _enchantChance: 0.1
+    _minEnchantPower: 0.01
+    _maxEnchantPower: 0.07
+  - _name: UNUSUAL
+    _color: {r: 0.54498816, g: 0.7735849, b: 0.52983266, a: 1}
+    _minStatModifier: 1.05
+    _maxStatModifier: 1.125
+    _enchantChance: 0.15
+    _minEnchantPower: 0.02
+    _maxEnchantPower: 0.06
+  - _name: RARE
+    _color: {r: 0.69803923, g: 0.54509807, b: 0.47058827, a: 1}
+    _minStatModifier: 1.075
+    _maxStatModifier: 1.15
+    _enchantChance: 0.25
+    _minEnchantPower: 0.03
+    _maxEnchantPower: 0.07
+  - _name: MASTER
+    _color: {r: 0, g: 0.3137255, b: 0.7294118, a: 1}
+    _minStatModifier: 1.1
+    _maxStatModifier: 1.175
+    _enchantChance: 0.5
+    _minEnchantPower: 0.04
+    _maxEnchantPower: 0.08
+  - _name: EPIC
+    _color: {r: 1, g: 0.7758026, b: 0, a: 1}
+    _minStatModifier: 1.125
+    _maxStatModifier: 1.2
+    _enchantChance: 0.6
+    _minEnchantPower: 0.05
+    _maxEnchantPower: 0.09
+  - _name: LEGENDARY
+    _color: {r: 0.4901961, g: 0, b: 0.5411765, a: 1}
+    _minStatModifier: 1.15
+    _maxStatModifier: 1.225
+    _enchantChance: 0.8
+    _minEnchantPower: 0.06
+    _maxEnchantPower: 0.09
+  - _name: DIVINE
+    _color: {r: 1, g: 0.9688148, b: 0.5943396, a: 1}
+    _minStatModifier: 1.2
+    _maxStatModifier: 1.35
+    _enchantChance: 1
+    _minEnchantPower: 0.07
+    _maxEnchantPower: 0.1

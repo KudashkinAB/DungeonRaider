@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98af72bac15a0f84d92c3b40b4497d89, type: 3}
+  m_Name: ItemsConfig
+  m_EditorClassIdentifier: 
+  _items:
+  - _itemType: 0
+    _itemName: Weapon
+    _sprites:
+    - {fileID: -1377163784, guid: 50a42aaeda8bd5c4e89e6b33836d84d0, type: 3}
+    - {fileID: 769827639, guid: 50a42aaeda8bd5c4e89e6b33836d84d0, type: 3}
+    - {fileID: 1315102272, guid: 50a42aaeda8bd5c4e89e6b33836d84d0, type: 3}
+    - {fileID: -355780879, guid: 50a42aaeda8bd5c4e89e6b33836d84d0, type: 3}
+    - {fileID: -1061044420, guid: 50a42aaeda8bd5c4e89e6b33836d84d0, type: 3}
+    - {fileID: -139133663, guid: 50a42aaeda8bd5c4e89e6b33836d84d0, type: 3}
+    - {fileID: -960478633, guid: 50a42aaeda8bd5c4e89e6b33836d84d0, type: 3}
+    - {fileID: -350557234, guid: 50a42aaeda8bd5c4e89e6b33836d84d0, type: 3}
+    _statsDelta:
+    - _stat: 0
+      _startValue: 10
+      _levelDelta: 2
+    - _stat: 1
+      _startValue: 100
+      _levelDelta: 20
+    - _stat: 2
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 3
+      _startValue: 50
+      _levelDelta: 10
+  - _itemType: 1
+    _itemName: Shield
+    _sprites:
+    - {fileID: -108588794, guid: 1ff0ed6da9bd6d04aac6184470607673, type: 3}
+    - {fileID: 973068760, guid: 1ff0ed6da9bd6d04aac6184470607673, type: 3}
+    - {fileID: -123238797, guid: 1ff0ed6da9bd6d04aac6184470607673, type: 3}
+    - {fileID: 322327907, guid: 1ff0ed6da9bd6d04aac6184470607673, type: 3}
+    - {fileID: -368106741, guid: 1ff0ed6da9bd6d04aac6184470607673, type: 3}
+    - {fileID: 1589270724, guid: 1ff0ed6da9bd6d04aac6184470607673, type: 3}
+    - {fileID: 1542083378, guid: 1ff0ed6da9bd6d04aac6184470607673, type: 3}
+    - {fileID: 272367076, guid: 1ff0ed6da9bd6d04aac6184470607673, type: 3}
+    _statsDelta:
+    - _stat: 0
+      _startValue: 100
+      _levelDelta: 20
+    - _stat: 1
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 2
+      _startValue: 120
+      _levelDelta: 24
+    - _stat: 3
+      _startValue: 10
+      _levelDelta: 2
+  - _itemType: 2
+    _itemName: Helmet
+    _sprites:
+    - {fileID: -846247465, guid: cba183fdb406b3d4b926536ea189a06a, type: 3}
+    - {fileID: 1182028480, guid: cba183fdb406b3d4b926536ea189a06a, type: 3}
+    - {fileID: -283315687, guid: cba183fdb406b3d4b926536ea189a06a, type: 3}
+    - {fileID: -341545390, guid: cba183fdb406b3d4b926536ea189a06a, type: 3}
+    - {fileID: 974031033, guid: cba183fdb406b3d4b926536ea189a06a, type: 3}
+    - {fileID: -921347347, guid: cba183fdb406b3d4b926536ea189a06a, type: 3}
+    - {fileID: 1161839320, guid: cba183fdb406b3d4b926536ea189a06a, type: 3}
+    - {fileID: -1188963500, guid: cba183fdb406b3d4b926536ea189a06a, type: 3}
+    _statsDelta:
+    - _stat: 0
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 1
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 2
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 3
+      _startValue: 50
+      _levelDelta: 10
+  - _itemType: 3
+    _itemName: Armor
+    _sprites:
+    - {fileID: -1162382200, guid: 3372e02195e0a5945b6a5a9f492fdeeb, type: 3}
+    - {fileID: -1323124443, guid: 3372e02195e0a5945b6a5a9f492fdeeb, type: 3}
+    - {fileID: 430595146, guid: 3372e02195e0a5945b6a5a9f492fdeeb, type: 3}
+    - {fileID: 1123234820, guid: 3372e02195e0a5945b6a5a9f492fdeeb, type: 3}
+    - {fileID: -21842939, guid: 3372e02195e0a5945b6a5a9f492fdeeb, type: 3}
+    - {fileID: 2044141796, guid: 3372e02195e0a5945b6a5a9f492fdeeb, type: 3}
+    - {fileID: -1258354312, guid: 3372e02195e0a5945b6a5a9f492fdeeb, type: 3}
+    - {fileID: -815265095, guid: 3372e02195e0a5945b6a5a9f492fdeeb, type: 3}
+    _statsDelta:
+    - _stat: 0
+      _startValue: 150
+      _levelDelta: 30
+    - _stat: 1
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 2
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 3
+      _startValue: 50
+      _levelDelta: 10
+  - _itemType: 4
+    _itemName: Gloves
+    _sprites:
+    - {fileID: 2127370999, guid: cfdd1f020c22f8d458fabe162adea6ee, type: 3}
+    - {fileID: 1645965013, guid: cfdd1f020c22f8d458fabe162adea6ee, type: 3}
+    - {fileID: -2098892110, guid: cfdd1f020c22f8d458fabe162adea6ee, type: 3}
+    - {fileID: 437243783, guid: cfdd1f020c22f8d458fabe162adea6ee, type: 3}
+    - {fileID: -667337721, guid: cfdd1f020c22f8d458fabe162adea6ee, type: 3}
+    - {fileID: 1940763805, guid: cfdd1f020c22f8d458fabe162adea6ee, type: 3}
+    - {fileID: 594866459, guid: cfdd1f020c22f8d458fabe162adea6ee, type: 3}
+    - {fileID: -205292905, guid: cfdd1f020c22f8d458fabe162adea6ee, type: 3}
+    _statsDelta:
+    - _stat: 0
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 1
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 2
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 3
+      _startValue: 50
+      _levelDelta: 10
+  - _itemType: 5
+    _itemName: Boots
+    _sprites:
+    - {fileID: -1333360567, guid: 5d40cfbc76c5015499781ff7dd3feb63, type: 3}
+    - {fileID: 437196498, guid: 5d40cfbc76c5015499781ff7dd3feb63, type: 3}
+    - {fileID: 420176404, guid: 5d40cfbc76c5015499781ff7dd3feb63, type: 3}
+    - {fileID: -1087265772, guid: 5d40cfbc76c5015499781ff7dd3feb63, type: 3}
+    - {fileID: 938089885, guid: 5d40cfbc76c5015499781ff7dd3feb63, type: 3}
+    - {fileID: -342743365, guid: 5d40cfbc76c5015499781ff7dd3feb63, type: 3}
+    - {fileID: 866208620, guid: 5d40cfbc76c5015499781ff7dd3feb63, type: 3}
+    - {fileID: -576815116, guid: 5d40cfbc76c5015499781ff7dd3feb63, type: 3}
+    _statsDelta:
+    - _stat: 0
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 1
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 2
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 3
+      _startValue: 50
+      _levelDelta: 10
+  - _itemType: 6
+    _itemName: Ring
+    _sprites:
+    - {fileID: -708487201, guid: 84c5f135de43b9944bc3dbea348adeae, type: 3}
+    - {fileID: -1924103296, guid: 84c5f135de43b9944bc3dbea348adeae, type: 3}
+    - {fileID: -886625433, guid: 84c5f135de43b9944bc3dbea348adeae, type: 3}
+    - {fileID: 1022844222, guid: 84c5f135de43b9944bc3dbea348adeae, type: 3}
+    - {fileID: -1386860758, guid: 84c5f135de43b9944bc3dbea348adeae, type: 3}
+    - {fileID: 2048801929, guid: 84c5f135de43b9944bc3dbea348adeae, type: 3}
+    - {fileID: -1460816610, guid: 84c5f135de43b9944bc3dbea348adeae, type: 3}
+    - {fileID: 1180272546, guid: 84c5f135de43b9944bc3dbea348adeae, type: 3}
+    _statsDelta:
+    - _stat: 0
+      _startValue: 10
+      _levelDelta: 2
+    - _stat: 1
+      _startValue: 10
+      _levelDelta: 2
+    - _stat: 2
+      _startValue: 10
+      _levelDelta: 2
+    - _stat: 3
+      _startValue: 10
+      _levelDelta: 2
+  - _itemType: 7
+    _itemName: Locket
+    _sprites:
+    - {fileID: 61887507, guid: 442130b57b557e542a2b2908ffec3702, type: 3}
+    - {fileID: -462285896, guid: 442130b57b557e542a2b2908ffec3702, type: 3}
+    - {fileID: 1000724253, guid: 442130b57b557e542a2b2908ffec3702, type: 3}
+    - {fileID: -2019721460, guid: 442130b57b557e542a2b2908ffec3702, type: 3}
+    - {fileID: -794017921, guid: 442130b57b557e542a2b2908ffec3702, type: 3}
+    - {fileID: -423285282, guid: 442130b57b557e542a2b2908ffec3702, type: 3}
+    - {fileID: 791791754, guid: 442130b57b557e542a2b2908ffec3702, type: 3}
+    - {fileID: -85337968, guid: 442130b57b557e542a2b2908ffec3702, type: 3}
+    _statsDelta:
+    - _stat: 0
+      _startValue: 10
+      _levelDelta: 2
+    - _stat: 1
+      _startValue: 10
+      _levelDelta: 2
+    - _stat: 2
+      _startValue: 10
+      _levelDelta: 2
+    - _stat: 3
+      _startValue: 10
+      _levelDelta: 2
+  - _itemType: 8
+    _itemName: Shoulder
+    _sprites:
+    - {fileID: 2012667463, guid: b4e5437a6f44cc544a9199df8627635c, type: 3}
+    - {fileID: 101920697, guid: b4e5437a6f44cc544a9199df8627635c, type: 3}
+    - {fileID: 2011529064, guid: b4e5437a6f44cc544a9199df8627635c, type: 3}
+    - {fileID: -1628899135, guid: b4e5437a6f44cc544a9199df8627635c, type: 3}
+    - {fileID: -58921040, guid: b4e5437a6f44cc544a9199df8627635c, type: 3}
+    - {fileID: 1129467929, guid: b4e5437a6f44cc544a9199df8627635c, type: 3}
+    - {fileID: 617313053, guid: b4e5437a6f44cc544a9199df8627635c, type: 3}
+    - {fileID: -2127364130, guid: b4e5437a6f44cc544a9199df8627635c, type: 3}
+    _statsDelta:
+    - _stat: 0
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 1
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 2
+      _startValue: 50
+      _levelDelta: 10
+    - _stat: 3
+      _startValue: 50
+      _levelDelta: 10

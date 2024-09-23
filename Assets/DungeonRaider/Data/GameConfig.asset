@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04280d46ed364894887a694ec5ee283e, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _tierConfig: {fileID: 11400000, guid: 3dafa41b1560b7a4db4818947a48f3e4, type: 2}
+  _levelingConfig: {fileID: 11400000, guid: 093ec7cf8aa16c94fbc64d6dac885aec, type: 2}
+  _itemsConfig: {fileID: 11400000, guid: 097b59e27a4a85342a8c6b19bacd9f30, type: 2}
+  _lootingConfig: {fileID: 11400000, guid: d06f35473dc31eb47ba214ea5e2a46b3, type: 2}
+  _resourceConfig: {fileID: 11400000, guid: 0a12a63141c97034baad809d79104ad9, type: 2}
